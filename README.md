@@ -37,6 +37,6 @@ The model:
 * Creates an optimizer
 
 ## 3. Results
-![Alt text](results2018-05-09.png?raw=true "Current Results")
+![Alt text](notebook-images/results2018-05-09.png?raw=true "Current Results")
 
 
