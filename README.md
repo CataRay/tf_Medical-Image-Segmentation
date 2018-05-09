@@ -1,13 +1,14 @@
 # tf_Medical-Image-Segmentation
-Use Tensorflow for medical image segmentation. In particular brain tumors.
+This is detailed jupyter notebook that uses Tensorflow for medical image segmentation, in particular brain tumors.
 The net trained with data from Brats2017
+
 ## Capabilities
 * Has mini_batch parcelation
 * Has tensorboard support
-* creates txt summary
-* multiple cost and accuray functions
+* Creates txt summary
+* Multiple cost and accuray functions
 
-1.  Data
+## 1.  Data
 The data is loaded from the folder:
 
 /data/Brats17TrainingData/Flair_HGG/flair.nii.gz
@@ -25,12 +26,17 @@ Labels in the seg files are:
 All label were simplified to 1 before creating the hdf5 files. Anything not background will be segemented as tumor.
 
 
-2. Model
+## 2. Model
 Helper functions implemented to build a model.
 The model:
 
-* creates placeholders
-* initializes parameters
-* forward propagate
-* computes the cost
-* creates an optimizer
+* Creates placeholders
+* Initializes parameters
+* Forward propagate
+* Computes the cost
+* Creates an optimizer
+
+## 3. Results
+![Alt text](results2018-05-09.png?raw=true "Current Results")
+
+
